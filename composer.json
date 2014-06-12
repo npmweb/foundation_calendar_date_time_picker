@@ -1,0 +1,34 @@
+{
+    "name": "npmweb/foundation_calendar_date_time_picker",
+    "description": "Calendar: A date and time picker for the Foundation CSS framework, available as a Composer component.",
+    "type": "component",
+    "license": "MIT",
+    "require": {
+        "robloach/component-installer": "*",
+        "components/jquery": ">=1.6.4",
+        "components/foundation": "5.1.*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/date.js",
+                "foundation_calendar.js",
+                "helpers/date-helpers.js",
+                "helpers/string-helpers.js"
+            ],
+            "styles": [
+                "foundation-icon-fonts-3/foundation-icons.css",
+                "foundation_calendar.css"
+            ],
+            "files": [
+                "foundation-icon-fonts-3/foundation-icons.eot",
+                "foundation-icon-fonts-3/foundation-icons.svg",
+                "foundation-icon-fonts-3/foundation-icons.ttf",
+                "foundation-icon-fonts-3/foundation-icons.woff"
+            ],
+            "shim": {
+                "deps": ["jquery","foundation"]
+            }
+        }
+    }
+}
