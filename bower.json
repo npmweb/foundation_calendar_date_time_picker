@@ -7,6 +7,7 @@
   ],
   "description": "Date/time picker that works with Foundation",
   "main": [
+    "foundation-icon-fonts-3/foundation-icons.css",
     "js/date.js",
     "helpers/date-helpers.js",
     "helpers/string-helpers.js",
