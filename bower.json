@@ -1,0 +1,28 @@
+{
+  "name": "foundation_calendar_date_time_picker",
+  "version": "0.2.1",
+  "homepage": "https://github.com/npmweb/foundation_calendar_date_time_picker",
+  "authors": [
+    "Josh Justice <josh@need-bee.com>"
+  ],
+  "description": "Date/time picker that works with Foundation",
+  "main": [
+    "js/date.js",
+    "helpers/date-helpers.js",
+    "helpers/string-helpers.js",
+    "foundation_calendar.js",
+    "foundation_calendar.css"
+  ],
+  "dependencies": {
+    "foundation": "5.3.*",
+    "jquery": ">= 2.1.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
