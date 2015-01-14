@@ -15,7 +15,7 @@
     "foundation_calendar.css"
   ],
   "dependencies": {
-    "foundation": "5.3.*",
+    "foundation": ">= 5.1.*",
     "jquery": ">= 2.1.0"
   },
   "license": "MIT",
